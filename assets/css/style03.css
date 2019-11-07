@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+  
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    position: relative;
+    width: 33%;
+    height: 200px; /* Should be removed. Only for demonstration */
+    margin: 16px;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.digiPic {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    z-index:100
+}
+
+.label {
+    position: absolute;
+    background: #666666;
+    bottom: 15px;
+    z-index: 200;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.box05 {
+    margin-bottom: 100px;
+}
