@@ -37,6 +37,13 @@
     margin-bottom: 0;
 }
 
+/* Style the active class, and buttons on mouse-over */
+.label:hover {
+    background-color: #ffffff;
+    color: #666666;
+    text-decoration: none;
+  }
+
 .box05 {
     margin-bottom: 100px;
 }

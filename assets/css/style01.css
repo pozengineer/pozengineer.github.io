@@ -25,9 +25,23 @@
     padding: 10px;
 }
 
-a {
-    color:#777777;
-    text-decoration: none;
+/* #aboutTag {
+    color: #ffffff;
+} */
+
+.tag1 {
+    position: absolute;
+    right: 200px;
+}
+
+.tag2 {
+    position: absolute;
+    right: 100px;
+}
+
+.tag3 {
+    position: absolute;
+    right: 0;
 }
 
 .tag {
@@ -43,19 +57,36 @@ a {
     border-width: 1px;
     border-color: #cccccc;
 }
-.tag1 {
-    position: absolute;
-    right: 200px;
+
+a:link {
+    color: #ff0000;
 }
 
-.tag2 {
-    position: absolute;
-    right: 100px;
+a {
+    color: #cccccc;
 }
 
-.tag3 {
-    position: absolute;
-    right: 0;
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.tag:hover {
+    background-color: #ff0000;
+    text-decoration: none;
+    padding: 5px 1px 5px 1px;
+    width: 100px;
+}
+
+a:focus {
+    color: #0a00ff;
+}
+
+.active {
+    background-color: #0a00ff;
+    text-decoration: none;
+    padding: 5px 1px 5px 1px;
+    width: 100px;
 }
 
 #aboutContent {
