@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 h2 {
     font-family: "Georgia", "Times New Roman", Times, serif;
     font-size: 18px;
@@ -51,3 +55,21 @@ h2 {
     margin-top: 10px;
     margin-bottom: 25px;
 }
+
+@media screen and (max-width: 360px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color: #ff0000;
+    }
+  
+    /* The wrapper's width will be 400px */
+    .tagContainer,
+    .contentContainer {
+      width: 300px;
+    }
+
+    .singleLine,
+    #messageBox {
+        width: 100%;
+    }
+  }
